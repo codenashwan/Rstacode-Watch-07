@@ -1,0 +1,1 @@
+<p class="text-center mt-5">© <?php echo date("Y");?> All rights reserved for <a href="https://www.rstacode.com"> RstaCode </a></p>

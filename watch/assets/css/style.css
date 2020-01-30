@@ -1,0 +1,49 @@
+*:focus {
+    outline: 0 !important;
+    outline-offset: 0  !important;
+    background-image: none  !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none  !important;
+  }
+@font-face {
+    font-family: 'speda';
+    src: url('Speda.ttf'); 
+  }
+body{
+    font-family:'Lexend Deca',"speda" !important;
+    src: url(Speda.ttf);
+}
+.radius-10{
+  border-radius: 10px !important;
+}
+.radius-20{
+    border-radius: 20px !important;
+}
+
+@media screen and (max-width:600px){
+.navbar-nav{
+  margin-right: -24px !important;
+}
+}
+
+.price{
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 20px;
+  color:#000 !important;
+}
+.title{
+  position: absolute;
+  bottom: 0;
+  right: 39px;
+  left: auto;
+  color:#000 !important;
+}
+.view{
+  position: absolute;
+  left: 0;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
